@@ -12,7 +12,7 @@
 	}
 
 	require_once('wp.php');
-	$objXMLRPClientWordPress = new XMLRPClientWordPress("http://localhost/edooqui/wp/xmlrpc.php" ,"admin","admin");
+	$objXMLRPClientWordPress = new XMLRPClientWordPress("wordpress" ,"user","pass");
 
 	$resp = $objXMLRPClientWordPress->createPost();
 	$arr = xmlrpc_decode($resp);
