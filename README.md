@@ -1,4 +1,4 @@
 webservices
 ===========
 
-Functions with description to how consume moodle and wordpress api
+This repository keeps the code, to consume moodle web services, and a simples tutorial to set up moodle to be able to use web services.
